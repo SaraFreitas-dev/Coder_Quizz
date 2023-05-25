@@ -4,9 +4,16 @@ import Welcome from './components/welcome'
 import Question from './components/Questions';
 import { useContext } from 'react';
 import { QuizzContext } from './context/quizz';
+import { useEffect } from 'react';
+
 
 function App() {
   const [quizzState, dispatch] = useContext(QuizzContext);
+
+  // Randomize the questions
+  useEffect(() =>{
+dispatch({type: "REORDER_QUESTIONS"});
+  }, [])
 
   return (
 
