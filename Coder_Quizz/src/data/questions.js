@@ -50,6 +50,57 @@ const data = [
     answer: "To track and manage changes to the source code",
   },
   {
+    question: "What is Dependency Injection?",
+    options: [
+      "A technique used to inject dependencies into a class or object",
+      "A process of breaking down a complex problem into smaller subproblems",
+      "A way to secure the communication between client and server",
+      "A method of storing and retrieving data in a structured format",
+    ],
+    answer: "A technique used to inject dependencies into a class or object",
+  },
+  {
+    question: "What is multithreading?",
+    options: [
+      "A technique to optimize database queries",
+      "A process of breaking down a complex problem into smaller subproblems",
+      "A method of running multiple threads concurrently within a single process",
+      "A way to secure the communication between client and server",
+    ],
+    answer: "A method of running multiple threads concurrently within a single process",
+  },
+  {
+    question: "What's the difference between GET and POST?",
+    options: [
+      "GET is used for data submission, while POST is used for data retrieval",
+      "GET requests are faster than POST requests",
+      "GET requests can have a request body, while POST requests cannot",
+      "GET requests are less secure than POST requests",
+    ],
+    answer: "GET requests can have a request body, while POST requests cannot",
+  },
+  {
+    question: "What is the purpose of the `addEventListener` method in JavaScript?",
+    options: [
+      "To concatenate two strings",
+      "To add a new element to an array",
+      "To attach an event handler function to an HTML element",
+      "To perform a mathematical operation",
+    ],
+    answer: "To attach an event handler function to an HTML element",
+  },
+  {
+    question: "What Is a Callback in JavaScript?",
+    options: [
+      "A function passed as an argument to another function, to be executed later",
+      "A data structure used to store multiple values in JavaScript",
+      "A way to define and create objects in JavaScript",
+      "A technique to optimize database queries in JavaScript",
+    ],
+    answer: "A function passed as an argument to another function, to be executed later",
+  },
+  
+  {
     question: "What is the purpose of the 'final' keyword in Java?",
     options: [
       "To indicate that a class, method, or variable cannot be overridden or modified",
