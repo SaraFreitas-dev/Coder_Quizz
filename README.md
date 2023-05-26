@@ -1,5 +1,4 @@
-# Coder_Quizz
-react-confett
+
 <br>
 <div align="center">
 
