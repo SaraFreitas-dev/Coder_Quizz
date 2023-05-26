@@ -1,4 +1,4 @@
-import Quizz from "../img/quizz_main.png"
+import Quizz from "../img/quiz_main.png"
 import "./Welcome.css"
 import { useContext } from "react";
 import { QuizzContext } from "../context/quizz";
