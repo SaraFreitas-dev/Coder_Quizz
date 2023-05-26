@@ -2,18 +2,18 @@ const data = [
   {
     question: "What does MVC stand for in web development?",
     options: [
-      "Model View Controller",
       "Most Valuable Customer",
       "Master Visual Code",
       "Multiple View Configuration",
+      "Model View Controller",
     ],
     answer: "Model View Controller",
   },
   {
     question: "How does a browser render a web page?",
     options: [
-      "By parsing and interpreting HTML, CSS, and JavaScript",
       "By executing server-side scripts",
+      "By parsing and interpreting HTML, CSS, and JavaScript",
       "By compressing images and videos",
       "By caching web page content",
     ],
@@ -32,9 +32,9 @@ const data = [
   {
     question: "What is the purpose of unit testing?",
     options: [
-      "To verify the correctness of individual components or units of code",
       "To optimize website performance",
       "To secure the website against attacks",
+      "To verify the correctness of individual components or units of code",
       "To analyze user behavior on the website",
     ],
     answer: "To verify the correctness of individual components or units of code",
@@ -74,8 +74,8 @@ const data = [
     options: [
       "GET is used for data submission, while POST is used for data retrieval",
       "GET requests are faster than POST requests",
-      "GET requests can have a request body, while POST requests cannot",
       "GET requests are less secure than POST requests",
+      "GET requests can have a request body, while POST requests cannot",
     ],
     answer: "GET requests can have a request body, while POST requests cannot",
   },
@@ -92,10 +92,10 @@ const data = [
   {
     question: "What Is a Callback in JavaScript?",
     options: [
-      "A function passed as an argument to another function, to be executed later",
       "A data structure used to store multiple values in JavaScript",
       "A way to define and create objects in JavaScript",
       "A technique to optimize database queries in JavaScript",
+      "A function passed as an argument to another function, to be executed later",
     ],
     answer: "A function passed as an argument to another function, to be executed later",
   },
@@ -103,8 +103,8 @@ const data = [
   {
     question: "What is the purpose of the 'final' keyword in Java?",
     options: [
-      "To indicate that a class, method, or variable cannot be overridden or modified",
       "To define a constant value",
+      "To indicate that a class, method, or variable cannot be overridden or modified",
       "To handle exceptions",
       "To declare a variable with a fixed value",
     ],
@@ -118,18 +118,18 @@ const data = [
   {
     question: "How can you select an element with a specific class in CSS?",
     options: [
-      "Using the '.' (dot) notation followed by the class name",
-      "Using the '#' (hash) notation followed by the class name",
-      "Using the '>' (greater-than) symbol followed by the class name",
-      "Using the '*' (asterisk) symbol followed by the class name",
+      "Using the '.' notation followed by the class name",
+      "Using the '#' notation followed by the class name",
+      "Using the '>' symbol followed by the class name",
+      "Using the '*' symbol followed by the class name",
     ],
-    answer: "Using the '.' (dot) notation followed by the class name",
+    answer: "Using the '.' notation followed by the class name",
   },
   {
     question: "What is the purpose of the Spring framework?",
     options: [
-      "To simplify Java development and promote good programming practices",
       "To manage database transactions",
+      "To simplify Java development and promote good programming practices",
       "To provide server-side rendering for web applications",
       "To perform data analysis and visualization",
     ],
@@ -138,10 +138,10 @@ const data = [
   {
     question: "What is the difference between a framework and a library in software development?",
     options: [
-      "A framework provides a complete structure for developing applications, while a library provides reusable code and functions.",
       "A framework is used for front-end development, while a library is used for back-end development.",
       "A framework is language-specific, while a library can be used with multiple programming languages.",
       "A framework is more lightweight and flexible than a library.",
+      "A framework provides a complete structure for developing applications, while a library provides reusable code and functions.",
     ],
     answer: "A framework provides a complete structure for developing applications, while a library provides reusable code and functions.",
   },
@@ -194,8 +194,262 @@ const data = [
       "The distribution of tasks among multiple processors",
     ],
     answer: "The ability to execute multiple tasks at the same time"
+  },
+
+    {
+      "question": "Which method can be used to add a new element to the DOM?",
+      "options": [
+        "document.createNode()",
+        "element.appendChild(newElement)",
+        "element.add(newElement)",
+        "document.newElement()"
+      ],
+      "answer": "element.appendChild(newElement)"
+    },
+    {
+      "question": "How can you change the style of an HTML element using the DOM?",
+      "options": [
+        "element.setStyles(...)",
+        "element.style.css(...)",
+        "element.style.setProperty(...)",
+        "element.updateStyle(...)"
+      ],
+      "answer": "element.style.setProperty(...)"
+    },
+    {
+      "question": "Which property allows you to modify the text content of an HTML element using the DOM?",
+      "options": [
+        "element.textContent",
+        "element.innerText",
+        "element.innerHTML",
+        "element.textValue"
+      ],
+      "answer": "element.textContent"
+    },
+    {
+      "question": "What does DOM manipulation involve?",
+      "options": [
+        "Adding styles to an HTML document using CSS",
+        "Optimizing the performance of a website using caching techniques",
+        "Analyzing user behavior on a website using analytics tools",
+        "Modifying the structure or content of an HTML document using JavaScript"
+      ],
+      "answer": "Modifying the structure or content of an HTML document using JavaScript"
+    },
+    {
+      "question": "What is the purpose of the @RequestMapping annotation in Spring MVC?",
+      "options": [
+        "It defines the request method to be used for a particular URL",
+        "It handles exceptions thrown by the controller methods",
+        "It specifies the response format for a controller method",
+        "It maps a request URL to a specific controller method"
+      ],
+      "answer": "It maps a request URL to a specific controller method"
+    },
+    {
+      "question": "What is the purpose of the @Autowired annotation in Spring MVC?",
+      "options": [
+        "It specifies the scope of a Spring bean",
+        "It injects dependencies into a Spring bean",
+        "It configures the database connection for the application",
+        "It handles the mapping of request parameters to method parameters"
+      ],
+      "answer": "It injects dependencies into a Spring bean"
+    },
+    {
+      "question": "What is Thymeleaf?",
+      "options": [
+        "A front-end framework for building responsive web applications",
+        "A template engine for server-side rendering in Spring MVC",
+        "A database management tool for Spring applications",
+        "An authentication library for securing Spring MVC applications"
+      ],
+      "answer": "A template engine for server-side rendering in Spring MVC"
+    },
+    {
+      "question": "Which protocol is commonly used for creating RESTful web services?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "TCP",
+        "UDP"
+      ],
+      "answer": "HTTP"
+    },
+    {
+      "question": "What is TCP?",
+      "options": [
+        "A protocol for reliable and ordered data transmission",
+        "A protocol for connectionless communication",
+        "A protocol for low-latency and loss-tolerant data transmission",
+        "A protocol for secure and encrypted communication"
+      ],
+      "answer": "A protocol for reliable and ordered data transmission"
+    },
+    {
+      "question": "Which protocol is more suitable for applications that require real-time communication?",
+      "options": [
+        "TCP",
+        "HTTP",
+        "UDP",
+        "FTP"
+      ],
+      "answer": "UDP"
+    }
+    [
+      {
+        "question": "Why do we use jQuery?",
+        "options": [
+          "Creation of mobile applications",
+          "Creation of interactive websites",
+          "Database connectivity",
+          "None of the above"
+        ],
+        "answer": "Creation of interactive websites"
+      },
+      {
+        "question": "How can the web application load time be reduced?",
+        "options": [
+          "Use distributed networks for common resource files",
+          "Minimize the resources requested by a page",
+          "Implement Lazy load so that the part of the page only loads when accessing that part",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What is the full form of POJO?",
+        "options": [
+          "Plain Old Java Object",
+          "Plain Old JavaScript Object",
+          "Portable Old Java Object",
+          "None of the above"
+        ],
+        "answer": "Plain Old Java Object"
+      },
+      
+  {
+    "question": "What is a primary key in a MySQL database?",
+    "options": [
+      "A unique identifier for a table",
+      "A foreign key from another table",
+      "A data type used for storing numbers",
+      "A column that contains only NULL values"
+    ],
+    "answer": "A unique identifier for a table"
+  },
+  {
+    "question": "Which statement is used to insert data into a MySQL database?",
+    "options": [
+      "SELECT",
+      "UPDATE",
+      "INSERT",
+      "DELETE"
+    ],
+    "answer": "INSERT"
+  },
+  {
+    "question": "What does the SQL statement 'SELECT * FROM table_name' do?",
+    "options": [
+      "Deletes all records from the table",
+      "Updates all records in the table",
+      "Inserts a new record into the table",
+      "Retrieves all records from the table"
+    ],
+    "answer": "Retrieves all records from the table"
+  },
+  {
+    "question": "Which SQL keyword is used to retrieve data from multiple tables in a single query?",
+    "options": [
+      "JOIN",
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE"
+    ],
+    "answer": "JOIN"
+  },
+  {
+    "question": "What is JSX in React?",
+    "options": [
+      "A query language for databases",
+      "A JavaScript syntax extension for writing HTML-like code in JavaScript",
+      "A testing framework for React applications",
+      "A CSS-in-JS solution for styling React components"
+    ],
+    "answer": "A JavaScript syntax extension for writing HTML-like code in JavaScript"
+  },
+  {
+    "question": "What is state in React?",
+    "options": [
+      "A JavaScript object that stores property values for a component",
+      "A lifecycle method in React components",
+      "A type of component in React",
+      "A built-in method for fetching data in React"
+    ],
+    "answer": "A JavaScript object that stores property values for a component"
+  },
+  {
+    "question": "What is a React component?",
+    "options": [
+      "A function or class that returns HTML to be rendered",
+      "A built-in data structure in React",
+      "A package manager for React applications",
+      "A utility library for state management in React"
+    ],
+    "answer": "A function or class that returns HTML to be rendered"
+  },
+  {
+    "question": "What is the virtual DOM in React?",
+    "options": [
+      "A DOM element created by React for rendering components",
+      "A JavaScript object representing the structure of a UI",
+      "A development environment for building React applications",
+      "A method for handling events in React components"
+    ],
+    "answer": "A JavaScript object representing the structure of a UI"
+  },
+  {
+    "question": "What is the main difference between JDK and JRE in Java?",
+    "options": [
+      "JDK is the development kit, and JRE is the runtime environment",
+      "JDK is used for mobile app development, and JRE is used for web development",
+      "JDK is a newer version of JRE with additional features",
+      "JDK and JRE are two different names for the same thing"
+    ],
+    "answer": "JDK is the development kit, and JRE is the runtime environment"
+  },
+  {
+    "question": "What is an interface in Java?",
+    "options": [
+      "A class that cannot be instantiated",
+      "A blueprint for creating objects",
+      "A data structure for storing multiple values",
+      "A way to define private methods"
+    ],
+    "answer": "A blueprint for creating objects"
+  },
+  {
+    "question": "Which keyword is used to create an object in Java?",
+    "options": [
+      "new",
+      "this",
+      "super",
+      "create"
+    ],
+    "answer": "new"
+  },
+  {
+    "question": "What is the purpose of the static keyword in Java?",
+    "options": [
+      "To declare a variable with a constant value",
+      "To indicate a method that can be called without an instance of the class",
+      "To prevent inheritance of a class",
+      "To mark a class as abstract"
+    ],
+    "answer": "To indicate a method that can be called without an instance of the class"
   }
-  
+    ]
+      
   
 ];
   

@@ -1,22 +1,37 @@
 #welcome{
     text-align: center;
-    max-width: 500px;
+    max-width: 550px;
+    
 }
 
 #welcome h2,
 #welcome p{
-margin-bottom: 1rem;
+margin-bottom: 1rem;    
 }
 
-#welcome p{
+#welcome p {
     color: #8435de;
-}
+    font-size: 1.5rem;
+    font-weight: bold !important;
+  }
+  
+  #welcome button{
+    margin-top: 1rem;
+  }
 
+  
 #welcome p{
     font-weight: 300;
+
+}
+#welcome h2{
+    font-size: 1.2rem;
+
 }
 
 
 #welcome img{
-   margin-top: 2rem; 
+   margin-top: 1rem; 
+
 }
+

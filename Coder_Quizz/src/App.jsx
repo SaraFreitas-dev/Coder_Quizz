@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'
 import Welcome from './components/welcome'
 import Question from './components/Questions';
+import GameOver from './components/GameOver';
 import { useContext } from 'react';
 import { QuizzContext } from './context/quizz';
 import { useEffect } from 'react';
@@ -21,6 +22,7 @@ dispatch({type: "REORDER_QUESTIONS"});
         <h1>The Coder's Quizz</h1>
         {quizzState.gameStage === "Start" && <Welcome/>}
         {quizzState.gameStage === "Playing" && <Question/>}
+        {quizzState.gameStage === "End" && <GameOver/>}
         </div>
     
   )

@@ -6,18 +6,19 @@ const STAGES =["Start", "Playing", "End"];
 const initialState = {
     gameStage: STAGES[0],
     questions,
-    maxQuestion: 11
+    maxQuestion: 11,
+    currentQuestion: 0,
+    score: 0,
+    answerSelected: false //to only continue if user has selected an answer
 }
 
 const quizzReducer = (state, action) => {
-    console.log(state, action)
+
     switch(action.type){
         case "CHANGE_STATE":
             return {
                 ...state,
                 gameStage: STAGES[1],
-                currentQuestion: 0,
-                
             };
             // Randomize Questions on each quizz and limit of 10 question
             case "REORDER_QUESTIONS":
@@ -28,19 +29,39 @@ const quizzReducer = (state, action) => {
                 ...state,
                 questions: limitedQuestions,
             };
+
         
             case "CHANGE_QUESTION":
                 const nextQuestion = state.currentQuestion + 1;
-                
+                let endGame = false;
+
+                if(!state.questions[nextQuestion]) {
+                    endGame = true;
+                }
                 return {
                   ...state,
                   currentQuestion: nextQuestion,
-                
+                  gameStage: endGame ? STAGES[2] : state.gameStage,
+                  answerSelected: false,               
                 };
-              
-   
-    
 
+            case "CHECK_ANSWER":
+                //check if answer was already selected
+                if(state.answerSelected) return state;
+
+                const answer = action.payload.answer;
+                const option = action.payload.option;
+                let correctAnswer = 0;
+
+                if(answer == option) correctAnswer = 1;
+                return {
+                    ...state,
+                    score: state.score + correctAnswer,
+                    answerSelected: option, //shows the continue button
+                }
+                case "NEW_GAME":
+                    return initialState;
+                
     default:
         return state;        
     }
