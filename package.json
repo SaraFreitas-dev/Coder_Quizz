@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "react-confetti": "^6.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
