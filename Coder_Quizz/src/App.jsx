@@ -19,11 +19,12 @@ dispatch({type: "REORDER_QUESTIONS"});
   return (
 
       <div className='app'>
+        <div className="content">
         <h1>The Coder's Quizz</h1>
         {quizzState.gameStage === "Start" && <Welcome/>}
         {quizzState.gameStage === "Playing" && <Question/>}
         {quizzState.gameStage === "End" && <GameOver/>}
-        </div>
+        </div></div>
     
   )
 }
