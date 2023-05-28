@@ -6,7 +6,7 @@ const STAGES =["Start", "Playing", "End"];
 const initialState = {
     gameStage: STAGES[0],
     questions,
-    maxQuestion: 11,
+    maxQuestion: 10,
     currentQuestion: 0,
     score: 0,
     answerSelected: false //to only continue if user has selected an answer
@@ -30,15 +30,16 @@ const quizzReducer = (state, action) => {
                 ...state,
                 questions: limitedQuestions,
             };
+            
 
         
             case "CHANGE_QUESTION":
                 const nextQuestion = state.currentQuestion + 1;
                 let endGame = false;
 
-                if(!state.questions[nextQuestion]) {
+                if (nextQuestion >= state.maxQuestion) {
                     endGame = true;
-                }
+                  }
                 return {
                   ...state,
                   currentQuestion: nextQuestion,

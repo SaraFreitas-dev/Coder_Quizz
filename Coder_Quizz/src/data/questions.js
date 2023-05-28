@@ -447,7 +447,391 @@ const data = [
       "To mark a class as abstract"
     ],
     "answer": "To indicate a method that can be called without an instance of the class"
-  }
+  },
+  {
+    "question": "What is the main advantage of using Spring Boot for application development?",
+    "options": [
+    "Simplified configuration and setup",
+    "Enhanced security features",
+    "Higher performance compared to other frameworks",
+    "Compatibility with a wide range of programming languages"
+    ],
+    "answer": "Simplified configuration and setup"
+    },
+    
+    {
+    "question": "In the context of Spring Framework, what is a bean?",
+    "options": [
+    "A Java class annotated with @Bean",
+    "A Java object managed by the Spring container",
+    "A dependency injection framework",
+    "A unit of work in a transactional application"
+    ],
+    "answer": "A Java object managed by the Spring container"
+    },
+    
+    {
+    "question": "What is the primary purpose of dependency injection in Spring Framework?",
+    "options": [
+    "To reduce the number of beans in an application",
+    "To enable loose coupling and easier testing",
+    "To automatically generate beans at runtime",
+    "To optimize the performance of Spring applications"
+    ],
+    "answer": "To enable loose coupling and easier testing"
+    },
+    
+    {
+    "question": "What is the purpose of the POM file in Maven?",
+    "options": [
+    "To define project dependencies and configurations",
+    "To specify the project's packaging type",
+    "To provide information about the project's modules",
+    "To configure the build process and plugins"
+    ],
+    "answer": "To define project dependencies and configurations"
+    },
+    
+    {
+    "question": "Which JavaScript method is commonly used to send an Ajax request to a server?",
+    "options": [
+    "fetch()",
+    "get()",
+    "query()",
+    "submit()"
+    ],
+    "answer": "fetch()"
+    },
+    
+    {
+    "question": "What does Ajax stand for in web development?",
+    "options": [
+    "Asynchronous JavaScript and XML",
+    "Advanced JavaScript and XML",
+    "Automated JavaScript and XHTML",
+    "Active JavaScript and XML"
+    ],
+    "answer": "Asynchronous JavaScript and XML"
+    },
+    
+    {
+    "question": "What is the role of the 'callback' function in Node.js asynchronous programming?",
+    "options": [
+    "It handles HTTP requests in Node.js applications",
+    "It defines the main entry point for the Node.js application",
+    "It is executed once a task is completed or an event occurs",
+    "It provides additional configuration options for Node.js modules"
+    ],
+    "answer": "It is executed once a task is completed or an event occurs"
+    },
+    
+    {
+    "question": "What is the purpose of the 'require' function in Node.js?",
+    "options": [
+    "To load and use external modules",
+    "To define variables in Node.js",
+    "To handle errors in Node.js applications",
+    "To create routes in Node.js applications"
+    ],
+    "answer": "To load and use external modules"
+    },
+    
+    {
+    "question": "What is npm in the context of Node.js?",
+    "options": [
+    "Node.js Package Manager",
+    "Node.js Programming Module",
+    "Node.js Plugin Middleware",
+    "Node.js Module Path"
+    ],
+    "answer": "Node.js Package Manager"
+    },
+    
+    {
+    "question": "What is Node.js?",
+    "options": [
+    "A web browser",
+    "A database management system",
+    "A runtime environment for executing JavaScript outside the browser",
+    "A programming language for server-side development"
+    ],
+    "answer": "A runtime environment for executing JavaScript outside the browser"
+    },
+    
+    {
+    "question": "What is Vue.js?",
+    "options": [
+    "A JavaScript framework for building user interfaces",
+    "A programming language for server-side development",
+    "A database management system",
+    "A styling library for CSS"
+    ],
+    "answer": "A JavaScript framework for building user interfaces"
+    },
+    
+    {
+    "question": "What is Apache Tomcat?",
+    "options": [
+    "An application server",
+    "A database management system",
+    "A version control system",
+    "An integrated development environment (IDE)"
+    ],
+    "answer": "An application server"
+    },
+
+    {
+    "question": "What is the default port number for Apache Tomcat?",
+    "options": [
+    "80",
+    "443",
+    "8080",
+    "8443"
+    ],
+    "answer": "8080"
+    },
+    {
+    "question": "What is Maven primarily used for in Java development?",
+    "options": [
+    "Version control management",
+    "Project documentation generation",
+    "Build automation and dependency management",
+    "Unit testing and code coverage analysis"
+    ],
+    "answer": "Build automation and dependency management"
+    },
+    {
+      "question": "What is a POM in the context of Maven?",
+      "options": [
+      "Project Object Model",
+      "Package Output Manager",
+      "Project Order Management",
+      "Plugin Options Module"
+      ],
+      "answer": "Project Object Model"
+      },
+      
+      {
+      "question": "What does SOAP stand for in the context of web services?",
+      "options": [
+      "Simple Object Access Protocol",
+      "Secure Open API Platform",
+      "Systematic Object Authentication Protocol",
+      "Service-Oriented Application Programming"
+      ],
+      "answer": "Simple Object Access Protocol"
+      },
+      
+      {
+      "question": "Which protocol is primarily used by SOAP for message exchange?",
+      "options": [
+      "HTTP",
+      "TCP",
+      "FTP",
+      "UDP"
+      ],
+      "answer": "HTTP"
+      },
+      
+      {
+      "question": "What is the main advantage of using SOAP for web services?",
+      "options": [
+      "Lightweight and faster message transmission",
+      "Broad platform and language compatibility",
+      "Easy integration with RESTful APIs",
+      "Enhanced caching and performance optimization"
+      ],
+      "answer": "Broad platform and language compatibility"
+      },
+      
+      {
+      "question": "What does REST stand for in the context of web services?",
+      "options": [
+      "Representational State Transfer",
+      "Remote Execution and State Transfer",
+      "Reliable and Secure Transactions",
+      "Responsive System Technology"
+      ],
+      "answer": "Representational State Transfer"
+      },
+      
+      {
+      "question": "Which HTTP method is commonly used for creating a new resource via a REST API?",
+      "options": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE"
+      ],
+      "answer": "POST"
+      },
+      
+      {
+      "question": "What is the main benefit of using REST APIs for web development?",
+      "options": [
+      "Improved security through encryption",
+      "Simplified integration with various platforms and technologies",
+      "Enhanced performance through optimized caching techniques",
+      "Increased scalability and high availability"
+      ],
+      "answer": "Simplified integration with various platforms and technologies"
+      },
+      
+      {
+      "question": "Which of the following is a core principle of Agile methodologies?",
+      "options": [
+      "Extensive documentation and detailed plans",
+      "Strict adherence to a predefined process",
+      "Embracing change and responding to it quickly",
+      "Individual tasks and roles over collaboration"
+      ],
+      "answer": "Embracing change and responding to it quickly"
+      },
+      
+      {
+      "question": "What is the primary focus of Agile development?",
+      "options": [
+      "Delivering working software at the end of the project",
+      "Following a detailed project plan",
+      "Meeting all project requirements within the initial scope",
+      "Iteratively delivering value to customers throughout the project"
+      ],
+      "answer": "Iteratively delivering value to customers throughout the project"
+      },
+      
+      {
+      "question": "What is the typical workflow in Git for merging changes from one branch into another?",
+      "options": [
+      "git pull",
+      "git push",
+      "git merge",
+      "git commit"
+      ],
+      "answer": "git merge"
+      },
+      
+      {
+      "question": "What is the purpose of a continuous integration (CI) workflow?",
+      "options": [
+      "To automatically deploy applications to production servers",
+      "To manage code reviews and pull requests",
+      "To automatically run tests and build applications upon code changes",
+      "To track and manage project issues and feature requests"
+      ],
+      "answer": "To automatically run tests and build applications upon code changes"
+      },
+      
+      {
+      "question": "What is npm?",
+      "options": [
+      "Node.js Package Manager",
+      "Node.js Programming Module",
+      "Node.js Package Middleware",
+      "Node.js Plugin Manager"
+      ],
+      "answer": "Node.js Package Manager"
+      },
+      
+      {
+      "question": "What is the purpose of the 'require' function in Node.js?",
+      "options": [
+      "To load and use external modules",
+      "To define variables in Node.js",
+      "To handle errors in Node.js applications",
+      "To create routes in Node.js applications"
+      ],
+      "answer": "To load and use external modules"
+      },
+      
+      {
+      "question": "What is the purpose of the 'git clone' command?",
+      "options": [
+      "Push local changes to a remote repository",
+      "Create a local copy of a remote repository",
+      "Merge branches in a Git repository",
+      "Delete a branch from a Git repository"
+      ],
+      "answer": "Create a local copy of a remote repository"
+      },
+      
+      {
+      "question": "What is the command used to create a new branch in Git?",
+      "options": [
+      "git clone",
+      "git checkout",
+      "git branch",
+      "git merge"
+      ],
+      "answer": "git branch"
+      },
+      
+      {
+      "question": "What does the ping command measure?",
+      "options": [
+      "Network bandwidth",
+      "Round-trip time (RTT)",
+      "Packet loss rate",
+      "Server response time"
+      ],
+      "answer": "Round-trip time (RTT)"
+      },
+      
+      {
+      "question": "Which protocol does the ping command use by default?",
+      "options": [
+      "HTTP",
+      "TCP",
+      "ICMP",
+      "UDP"
+      ],
+      "answer": "ICMP"
+      },
+      
+      {
+      "question": "Which Java framework provides support for database persistence and object-relational mapping (ORM)?",
+      "options": [
+      "Spring",
+      "Hibernate",
+      "Struts",
+      "JavaFX"
+      ],
+      "answer": "Hibernate"
+      },
+      
+      {
+      "question": "In Hibernate, which annotation is used to establish a relationship between two entities?",
+      "options": [
+      "@Entity",
+      "@Id",
+      "@OneToOne",
+      "@OneToMany"
+      ],
+      "answer": "@OneToOne"
+      },
+      
+      {
+      "question": "In Java, which annotation is used to indicate that a method is a test method?",
+      "options": [
+      "@Test",
+      "@Override",
+      "@Autowired",
+      "@Entity"
+      ],
+      "answer": "@Test"
+      },
+      
+      {
+      "question": "Which SQL keyword is used to filter rows based on a specified condition?",
+      "options": [
+      "SELECT",
+      "UPDATE",
+      "DELETE",
+      "WHERE"
+      ],
+      "answer": "WHERE"
+      }
+
+        
     ]
       
   

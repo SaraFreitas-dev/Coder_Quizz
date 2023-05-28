@@ -18,7 +18,7 @@ const onSelectOption = (option) =>{
 
   return (
     <div id="questions">
-    <p>Question {quizzState.currentQuestion +1} of {quizzState.maxQuestion -1}</p>
+    <p>Question {quizzState.currentQuestion +1} of {quizzState.maxQuestion}</p>
     <h2>{currentQuestion.question}</h2>
 
     <div className="options-container">
