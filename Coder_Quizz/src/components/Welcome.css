@@ -31,6 +31,20 @@ margin-bottom: 1rem;
 
 #welcome img{
    margin-top: 1rem; 
-
 }
 
+@media only screen and (max-width: 600px) {
+    #welcome h2{
+        font-size: 1rem;
+    }
+
+    #welcome p{
+        font-size: 1.1rem;
+    }
+    
+    #welcome img{
+        margin-top: 0.5rem; 
+     }
+   
+     
+  }

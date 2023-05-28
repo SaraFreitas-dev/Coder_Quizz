@@ -10,6 +10,7 @@ const initialState = {
     currentQuestion: 0,
     score: 0,
     answerSelected: false //to only continue if user has selected an answer
+    
 }
 
 const quizzReducer = (state, action) => {
@@ -54,6 +55,7 @@ const quizzReducer = (state, action) => {
                 let correctAnswer = 0;
 
                 if(answer == option) correctAnswer = 1;
+
                 return {
                     ...state,
                     score: state.score + correctAnswer,

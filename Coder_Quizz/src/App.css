@@ -1,17 +1,19 @@
-.app{
-    text-align: center;
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set container height to occupy the full viewport height */
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .app h1{
   margin-bottom: 2rem;  
   font-size: 3rem;
   z-index: 10;
-  animation: blink 3s 4;
+  animation: blink 3s infinite;
 }
 
 
@@ -26,4 +28,12 @@
   100% {
     text-shadow: 2px 2px 20px #a862f8;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .app h1{
+    margin-bottom: 1rem;  
+    font-size: 2rem;
+  }
+  
 }

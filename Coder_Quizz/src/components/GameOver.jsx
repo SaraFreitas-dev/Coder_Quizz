@@ -10,9 +10,10 @@ const GameOver = () => {
   return (
     <div id="gameover">
         <h2>Quiz Complete!</h2>
-        <p>Score: {Math.round((quizzState.score / (quizzState.maxQuestion - 1)) * 100)}%</p>
+        <p>Score: {Math.round((quizzState.score / (quizzState.maxQuestion - 1)) * 100)}%</p> 
         <p>You answered {quizzState.score} out of {quizzState.maxQuestion -1} questions correctly</p>
-          {quizzState.score / (quizzState.maxQuestion - 1) > 0.7 
+          
+          {quizzState.score / (quizzState.maxQuestion - 1) >= 0.7 //if score is bigger tgan 70%, the confetti will activate
           && <Confetti
           numberOfPieces={150}
           style={{ zIndex: 0 }} />}

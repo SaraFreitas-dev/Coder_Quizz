@@ -11,6 +11,15 @@
 margin-bottom: 2rem;
 }
 
+#questions h2{
+font-size: 1.7rem;
+}
+
+#questions p{
+    font-size: 1.2rem;
+    }
+    
+
 #welcome p{
     margin-bottom: 1rem;  
 }
@@ -18,4 +27,26 @@ margin-bottom: 2rem;
 #questions button{
     border: 2px solid #fff;
 }
+
+@media only screen and (max-width: 600px) {
+
+    #questions h2{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        }
+        
+    #questions p{
+         font-size: 0.8rem;
+            }
+
+    #questions{
+          padding: 1rem;
+            }
+   #questions button{
+          font-size: 0.9rem;
+          padding: 0.7rem;
+   }
+                  
+     
+  }
 
