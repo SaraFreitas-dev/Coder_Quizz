@@ -9,7 +9,7 @@
 
 #gameover h2,
 #gameover p{
-margin-bottom: 1rem;
+margin-bottom:1rem;
 z-index: 10;
 }
 
@@ -19,7 +19,7 @@ z-index: 10;
 
 #gameover p{
     color: #8435de;
-    font-weight: 300;
+    font-weight: 400;
     z-index: 10;
 }
 
@@ -32,4 +32,10 @@ z-index: 10;
 }
 
 
-
+@media only screen and (max-width: 600px) {
+    #gameover img{
+        margin-top: 0.3rem; 
+        margin-bottom: 1.3rem;
+     }
+     
+  }
