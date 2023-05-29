@@ -12,8 +12,7 @@
   </h1>
 <p>This website is a quizz made for Junior FullStack Developers to practice interview questions.</p>
   <p>In the next stage of this project, I will be adding categories, allowing developers to choose specific types of questions based on their preferences or areas of focus.</p>
- <br> <p>Issue: Please be aware of a known issue in this project. While the quizz stops correctly the first time, when repeating the quizz, it may not stop properly. To ensure consistent functionality, I recommend refreshing the page after each "reset quizz".</p>
-<br>
+ <br> 
 
 <h2>
 <img style="height: 30px;" src="https://user-images.githubusercontent.com/105666041/235691286-749350a6-fedb-4c0f-b41b-a1817179c5ff.png">
