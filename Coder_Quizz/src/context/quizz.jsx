@@ -10,7 +10,6 @@ const initialState = {
     currentQuestion: 0,
     score: 0,
     answerSelected: false //to only continue if user has selected an answer
-    
 }
 
 const quizzReducer = (state, action) => {
@@ -23,14 +22,23 @@ const quizzReducer = (state, action) => {
             };
             // Randomize Questions on each quizz and limit of 10 question
             case "REORDER_QUESTIONS":
-            const totalQuestions = state.questions.length;
-            const shuffledQuestions = state.questions.sort(() => Math.random() - 0.5);
-            const limitedQuestions = shuffledQuestions.slice(0, Math.min(totalQuestions, 10));
-            return {
-                ...state,
-                questions: limitedQuestions,
-            };
-            
+                const totalQuestions = state.questions.length;
+                const shuffledQuestions = state.questions.map((question) => ({ ...question }));
+              
+                // Fisher-Yates shuffle algorithm
+                for (let i = totalQuestions - 1; i > 0; i--) {
+                  const j = Math.floor(Math.random() * (i + 1));
+                  [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+                }
+              
+                const limitedQuestions = shuffledQuestions.slice(0, Math.min(totalQuestions, 10));
+              
+                return {
+                  ...state,
+                  questions: limitedQuestions,
+                };
+              
+              
 
         
             case "CHANGE_QUESTION":
@@ -77,4 +85,3 @@ const value = useReducer(quizzReducer, initialState);
 
     return <QuizzContext.Provider value={value}>{children}</QuizzContext.Provider>
 }
-

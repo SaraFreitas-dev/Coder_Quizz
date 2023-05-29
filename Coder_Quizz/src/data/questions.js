@@ -200,7 +200,7 @@ const data = [
       "question": "Which method can be used to add a new element to the DOM?",
       "options": [
         "document.createNode()",
-        "element.appendChild(newElement)",
+        "element.appendChild (newElement)",
         "element.add(newElement)",
         "document.newElement()"
       ],
@@ -295,8 +295,8 @@ const data = [
         "FTP"
       ],
       "answer": "UDP"
-    }
-    [
+    },
+    
       {
         "question": "Why do we use jQuery?",
         "options": [
@@ -798,6 +798,87 @@ const data = [
       "answer": "Hibernate"
       },
       
+{
+  "question": "Which data structure follows the First-In-First-Out (FIFO) principle?",
+  "options": [
+  "Queue",
+  "Stack",
+  "Linked List",
+  "Tree"
+  ],
+  "answer": "Queue"
+  },
+  {
+  "question": "Which method is typically used to add elements to a queue in Java?",
+  "options": [
+  "enqueue()",
+  "push()",
+  "add()",
+  "insert()"
+  ],
+  "answer": "enqueue()"
+  },
+  {
+  "question": "What is the time complexity of inserting an element at the beginning of a linked list?",
+  "options": [
+  "O(1)",
+  "O(n)",
+  "O(log n)",
+  "O(n^2)"
+  ],
+  "answer": "O(1)"
+  },
+  {
+  "question": "Which data structure represents a hierarchical structure with a root node and child nodes?",
+  "options": [
+  "Queue",
+  "Stack",
+  "Linked List",
+  "Tree"
+  ],
+  "answer": "Tree"
+  },
+  {
+  "question": "Which JavaScript library simplifies HTML document traversal and manipulation?",
+  "options": [
+  "React",
+  "Angular",
+  "jQuery",
+  "Vue.js"
+  ],
+  "answer": "jQuery"
+  },
+  {
+  "question": "What is the primary function of a web server?",
+  "options": [
+  "Handle client-side scripting",
+  "Store and manage databases",
+  "Handle HTTP requests and deliver web content",
+  "Design and create graphical user interfaces"
+  ],
+  "answer": "Handle HTTP requests and deliver web content"
+  },
+  {
+  "question": "Which protocol is commonly used with sockets for reliable data transmission?",
+  "options": [
+  "HTTP",
+  "FTP",
+  "TCP",
+  "UDP"
+  ],
+  "answer": "TCP"
+  },
+  {
+  "question": "What does the SQL code 'SELECT COUNT(*) FROM users;' do?",
+  "options": [
+  "Retrieves the total count of rows in the 'users' table.",
+  "Retrieves the average value of all columns in the 'users' table.",
+  "Retrieves the sum of all values in the 'users' table.",
+  "Retrieves the maximum value from the 'users' table."
+  ],
+  "answer": "Retrieves the total count of rows in the 'users' table."
+  },
+
       {
       "question": "In Hibernate, which annotation is used to establish a relationship between two entities?",
       "options": [
@@ -829,10 +910,98 @@ const data = [
       "WHERE"
       ],
       "answer": "WHERE"
-      }
+      },
+      {
+        question: "Which annotation is used in Java to specify that a method can be executed asynchronously?",
+        options: [
+        "@Async",
+        "@Threaded",
+        "@Concurrent",
+        "@Parallel",
+        ],
+        answer: "@Async",
+        },
+        {
+        question: "What is the purpose of the @Deprecated annotation in Java?",
+        options: [
+        "It indicates that a method is currently not in use.",
+        "It specifies that a class cannot be extended.",
+        "It marks a method as obsolete and discouraged from being used.",
+        "It declares that a class should be instantiated only once.",
+        ],
+        answer: "It marks a method as obsolete and discouraged from being used.",
+        },
+        {
+        question: "Which annotation is used to mark a class as an entity in Java Persistence API (JPA)?",
+        options: [
+        "@Entity",
+        "@Table",
+        "@Model",
+        "@Persistence",
+        ],
+        answer: "@Entity",
+        },
+        {
+        question: "Which annotation is used to indicate that a variable or parameter is of a specific type in JavaScript?",
+        options: [
+        "@TypeOf",
+        "@Typed",
+        "@Type",
+        "JavaScript does not have explicit type annotations.",
+        ],
+        answer: "JavaScript does not have explicit type annotations.",
+        },
+        {
+        question: "What is the purpose of the 'float' property in CSS?",
+        options: [
+        "It specifies the alignment of an element along the horizontal axis.",
+        "It controls the visibility of an element.",
+        "It sets the background color of an element.",
+        "It changes the font style of an element.",
+        ],
+        answer: "It specifies the alignment of an element along the horizontal axis.",
+        },
+        {
+        question: "What is the purpose of the 'display: inline-block' property in CSS?",
+        options: [
+        "It makes an element display as a block-level element.",
+        "It makes an element display as an inline-level element.",
+        "It combines the characteristics of both block and inline elements.",
+        "It hides an element from the layout.",
+        ],
+        answer: "It combines the characteristics of both block and inline elements.",
+        },
+        {
+        question: "What is the purpose of the 'state' object in React?",
+        options: [
+        "It is used to store and manage component data that can change over time.",
+        "It specifies the initial configuration of a React component.",
+        "It holds the JSX markup for rendering a component.",
+        "There is no 'state' object in React.",
+        ],
+        answer: "It is used to store and manage component data that can change over time.",
+        },
+        {
+        question: "What is the purpose of the jQuery method .hide()?",
+        options: [
+        "It hides an element by setting its visibility to hidden.",
+        "It removes an element from the DOM.",
+        "It hides an element by setting its display property to none.",
+        "It hides an element by reducing its opacity to zero.",
+        ],
+        answer: "It hides an element by setting its display property to none.",
+        },
+        {
+        question: "What is the purpose of the SQL keyword 'GROUP BY'?",
+        options: [
+        "It filters rows based on a specified condition.",
+        "It sorts the result set in ascending or descending order.",
+        "It groups rows with the same values into summary rows.",
+        "It combines data from multiple tables based on a related column.",
+        ],
+        answer: "It groups rows with the same values into summary rows.",
+        }
 
-        
-    ]
       
   
 ];
