@@ -3,7 +3,8 @@
     max-width: 500px;
     background-color: #8435de;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.8rem;
+    margin-bottom: 1.5rem;
 }
 
 #questions h2,

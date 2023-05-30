@@ -4,7 +4,7 @@
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    
+    margin: -1% 1rem 1rem 1rem;
 }
 
 #gameover h2,
