@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+import Music from './components/Music';
 import Welcome from './components/welcome'
 import Question from './components/Questions';
 import GameOver from './components/GameOver';
@@ -24,6 +25,7 @@ dispatch({type: "REORDER_QUESTIONS"});
         {quizzState.gameStage === "Start" && <Welcome/>}
         {quizzState.gameStage === "Playing" && <Question/>}
         {quizzState.gameStage === "End" && <GameOver/>}
+        <Music />
         </div></div>
     
   )

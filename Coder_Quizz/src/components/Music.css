@@ -1,0 +1,7 @@
+.music-container{
+    margin: -1% 1rem 1rem 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
