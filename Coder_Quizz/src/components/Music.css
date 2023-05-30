@@ -5,3 +5,6 @@
     flex-direction: column;
 }
 
+.music-container button{
+    z-index: 10;
+}

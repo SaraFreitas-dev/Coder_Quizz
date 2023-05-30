@@ -26,7 +26,7 @@ const Music = () => {
 
   return (
     <div className='music-container'>
-      <button onClick={handlePlayPause}>{isPlaying ? 'Pause' : 'Play Music'}</button>
+      <button onClick={handlePlayPause}>{isPlaying ? 'Pause' : 'Play Music To Focus'}</button>
       <div>
         <audio
           ref={audioPlayerRef}

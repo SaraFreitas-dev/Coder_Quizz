@@ -197,14 +197,14 @@ const data = [
   },
 
     {
-      "question": "Which method can be used to add a new element to the DOM?",
-      "options": [
+      question: "Which method can be used to add a new element to the DOM?",
+      options: [
         "document.createNode()",
         "element.appendChild (newElement)",
         "element.add(newElement)",
         "document.newElement()"
       ],
-      "answer": "element.appendChild(newElement)"
+      answer: "element.appendChild (newElement)"
     },
     {
       "question": "How can you change the style of an HTML element using the DOM?",
@@ -961,6 +961,136 @@ const data = [
         ],
         answer: "It specifies the alignment of an element along the horizontal axis.",
         },
+        {
+          "question": "What is the main advantage of using lambda expressions?",
+          "options": [
+            "Improved code readability and maintainability",
+            "Reduced code complexity and improved performance",
+            "Enhanced support for multithreading and parallel programming",
+            "Elimination of the need for object-oriented programming principles"
+          ],
+          "answer": "Improved code readability and maintainability"
+        },
+        {
+          "question": "What is polymorphism in object-oriented programming?",
+          "options": [
+            "The ability to inherit properties and behavior from a parent class",
+            "The process of breaking down a complex problem into smaller, manageable parts",
+            "The process of converting high-level programming code into machine code",
+            "The ability of an object to take on many forms and respond to methods differently"
+          ],
+          "answer": "The ability of an object to take on many forms and respond to methods differently"
+        },
+        {
+          "question": "Which of the following terms describes the ability of a subclass to provide its own implementation of a method defined in its parent class?",
+          "options": [
+            "Inheritance",
+            "Encapsulation",
+            "Abstraction",
+            "Method overriding"
+          ],
+          "answer": "Method overriding"
+        },
+        {
+          "question": "What is the benefit of polymorphism in object-oriented programming?",
+          "options": [
+            "Enhanced code complexity and reduced flexibility",
+            "Increased program performance and faster execution",
+            "Improved code reusability and flexibility",
+            "Elimination of the need for object-oriented design principles"
+          ],
+          "answer": "Improved code reusability and flexibility"
+        },
+        {
+          "question": "Which of the following is an example of abstraction?",
+          "options": [
+            "Using loops to iterate over a collection of elements",
+            "Declaring variables to store different types of data",
+            "Writing code using low-level assembly language instructions",
+            "Defining a class with abstract methods and leaving the implementation details to subclasses"
+          ],
+          "answer": "Defining a class with abstract methods and leaving the implementation details to subclasses"
+        },
+        {
+          "question": "Which of the following terms describes a class that inherits from another class?",
+          "options": [
+            "Superclass",
+            "Subclass",
+            "Interface",
+            "Abstract class"
+          ],
+          "answer": "Subclass"
+        },
+        {
+          "question": "What is the main advantage of inheritance in object-oriented programming?",
+          "options": [
+            "Code reuse and improved modularity",
+            "Increased code complexity and reduced flexibility",
+            "Enhanced program performance and faster execution",
+            "Elimination of the need for object-oriented design principles"
+          ],
+          "answer": "Code reuse and improved modularity"
+        },
+        {
+          "question": "Which of the following problems is typically well-suited for a recursive solution?",
+          "options": [
+            "Sorting a large collection of elements",
+            "Searching for an element in a sorted list",
+            "Computing the factorial of a number",
+            "Implementing a complex mathematical formula"
+          ],
+          "answer": "Computing the factorial of a number"
+        },
+        {
+          "question": "What is a thread in the context of computer programming?",
+          "options": [
+            "A sequence of instructions executed in parallel with other threads",
+            "A type of data structure used to store program instructions",
+            "An error that occurs during program execution",
+            "A software tool used for debugging programs"
+          ],
+          "answer": "A sequence of instructions executed in parallel with other threads"
+        },
+        {
+          "question": "What is the purpose of a functional interface in Java?",
+          "options": [
+            "To define classes that can be instantiated",
+            "To represent an interface with a single abstract method",
+            "To encapsulate related data and behavior",
+            "To handle exceptions in a structured manner"
+          ],
+          "answer": "To represent an interface with a single abstract method"
+        },
+        {
+          "question": "Which API is used to process collections and arrays using functional programming techniques in Java?",
+          "options": [
+            "Stream API",
+            "Collection API",
+            "Iterator API",
+            "Array API"
+          ],
+          "answer": "Stream API"
+        },
+        {
+          "question": "What is the purpose of a schema in a relational database?",
+          "options": [
+            "To define the tables and their relationships in a database",
+            "To perform calculations and aggregations on data",
+            "To control access and permissions for database users",
+            "To optimize query performance and data retrieval"
+          ],
+          "answer": "To define the tables and their relationships in a database"
+        },
+        {
+          "question": "What is the purpose of a foreign key in a relational database?",
+          "options": [
+            "To uniquely identify each record in a table",
+            "To enforce referential integrity and maintain relationships between tables",
+            "To perform complex calculations and aggregations on data",
+            "To index and optimize data retrieval operations"
+          ],
+          "answer": "To enforce referential integrity and maintain relationships between tables"
+        },                                    
         {
         question: "What is the purpose of the 'display: inline-block' property in CSS?",
         options: [
